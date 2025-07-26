@@ -20,8 +20,8 @@ bash <(curl -s https://raw.githubusercontent.com/yourusername/starship-config/ma
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/yourusername/starship-config.git
-cd starship-config
+git clone https://github.com/osiic/starship.git
+cd starship
 
 # 2. Install Starship (if not installed)
 curl -sS https://starship.rs/install.sh | sh
@@ -47,7 +47,6 @@ source ~/.profile
 
 > Customize your terminal with vibrant colors and a clean, elegant prompt.
 
-*Add a screenshot here if needed.*
 
 ---
 
