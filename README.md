@@ -46,7 +46,7 @@ source ~/.profile
 ## 📸 Preview
 
 > Customize your terminal with vibrant colors and a clean, elegant prompt.
-
+<img width="441" height="218" alt="{EED1F70A-5673-48C5-B38B-609B82702611}" src="https://github.com/user-attachments/assets/fcc0a96f-83fd-404b-bd0b-717a909f1fe3" />
 
 ---
 
