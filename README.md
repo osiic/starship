@@ -10,5 +10,3 @@ mkdir -p ~/.config
 cp starship-config/starship.toml ~/.config/starship.toml
 
 ```
-
-# starship
