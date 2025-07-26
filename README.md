@@ -1,12 +1,64 @@
-# 🌟 Starship Config
+# 🌟 Starship Config - Catppuccin Mocha Edition
 
-This is my custom Starship prompt configuration using the [Catppuccin Mocha](https://github.com/catppuccin/starship) palette.
+This repository contains my personal configuration for [Starship](https://starship.rs), the minimal, blazing-fast, and customizable prompt for any shell.
 
-## 📦 Installation
+> ✨ Uses the beautiful [Catppuccin Mocha](https://github.com/catppuccin/starship) color palette.
+
+---
+
+## 🚀 One-liner Install (Plug and Play)
+
+Run this command to install Starship, apply the config, dan aktifkan otomatis di `.bashrc`, `.zshrc`, dan `.profile`:
 
 ```bash
-git clone https://github.com/username/starship-config.git
-mkdir -p ~/.config
-cp starship-config/starship.toml ~/.config/starship.toml
-
+bash <(curl -s https://raw.githubusercontent.com/yourusername/starship-config/main/install.sh)
 ```
+
+---
+
+## 🧰 Manual Install (If Needed)
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/yourusername/starship-config.git
+cd starship-config
+
+# 2. Install Starship (if not installed)
+curl -sS https://starship.rs/install.sh | sh
+
+# 3. Copy config file
+mkdir -p ~/.config
+cp starship.toml ~/.config/starship.toml
+
+# 4. Add starship to your shell config
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+echo 'eval "$(starship init bash)"' >> ~/.profile
+
+# 5. Apply changes
+source ~/.bashrc
+source ~/.zshrc
+source ~/.profile
+```
+
+---
+
+## 📸 Preview
+
+> Customize your terminal with vibrant colors and a clean, elegant prompt.
+
+*Add a screenshot here if needed.*
+
+---
+
+## 🎨 Theme
+
+This config uses the `catppuccin_mocha` palette with customized prompt symbols and colors.  
+You can tweak it in the `starship.toml` file.
+
+---
+
+## 📎 Credits
+
+- [Starship](https://starship.rs)
+- [Catppuccin Theme](https://github.com/catppuccin/starship)
